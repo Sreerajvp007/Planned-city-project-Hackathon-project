@@ -1,0 +1,97 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+  text-decoration: none;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.hero {
+      background: url('../images/herosea.png') no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 200px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .info-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .gallery-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .tab-btn {
+      margin-right: 10px;
+    }
+   
+
+
+  .bg-image{
+    background-image: url('../vacoroot.png');
+    opacity: 0.8;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    padding: 500px 0px;
+  }
+
+  
+.progress-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+
+.progress-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  background-color: #f3f9f4; 
+}
+
+
+.progress-card img {
+  transition: transform 0.3s ease;
+}
+
+.progress-card:hover img {
+  transform: scale(1.1) rotate(2deg);
+}
+
